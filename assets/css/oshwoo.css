@@ -1,0 +1,138 @@
+/**
+ * oshwoo plugin CSS
+ *
+ */
+
+/* swatch render */
+.oshwoo.swatch {
+  /* roundness */
+  border-radius: .4em;
+  -moz-border-radius: .4em;
+  -webkit-border-radius: .4em;
+  /* height */
+  line-height: 1.7em;
+  padding: 0 0 2px 0;
+  /* width */
+  width: 1.8em; 
+  /* space in-between swatches */
+  margin: 4px .5px .5px .5px;
+  /* general */
+  -webkit-font-smoothing: antialiased;
+  background-color: #ccc;
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  cursor: help;
+}
+/* history swatch */
+.oshwoo.swatch.icon 
+{ cursor: pointer; }
+.oshwoo.swatch.icon::before {	
+  font-family: 'dashicons';
+  /* dashicons-admin-users */
+  content: '\f110';
+  position: relative;
+  top: 1px;
+}
+.oshwoo.swatch.icon:hover 
+{ background-color: #000 !important; }
+
+/* Guest swatch text 
+.oshwoo.label[data-status='G']
+{ color: yellow; }
+*/
+/* edit order > previous orders metabox: icons stay centered */
+#oshwoo-status-holder
+{ text-align: center; }
+/* reports: 'Customer Orders History' icon */
+a.oshwoo.dashicons-admin-users
+{ color: #808080; font-size: 1.9em; margin-left: -5px; }
+a.oshwoo.dashicons-admin-users:hover
+{ color: #699; }
+/* settings page: line separator */
+div.oshwoo-settings td
+{ width: 50% }
+/* settings page: line separator */
+div.oshwoo-settings td.col2
+{ position: relative; top: 20px; }
+div.oshwoo-settings td.col2 hr {
+  background-color: #fff;
+  border-top: 1px dashed #8c8c8c;
+}
+/* settings page: text */
+div.oshwoo-settings td[scope=row]
+{ text-align: right; }
+/* settings page: color choosers swatches */
+div.oshwoo-settings input[type=color] { 
+  /* swatch size */
+  width: 75px; 
+  height: 75px; 
+  /* general */
+  -webkit-appearance: none;
+  cursor: pointer; 
+  padding: 0;
+  border: 0;
+}
+div.oshwoo-settings input[type="color"]::-webkit-color-swatch-wrapper 
+{ padding: 0; }
+input[type="color"]::-webkit-color-swatch { 
+  border: none; 
+  /* roundness */
+  border-radius: .4em;
+  -moz-border-radius: .4em;
+  -webkit-border-radius: .4em;
+}
+/* settings page: sample digits & symbols */
+div.oshwoo-settings label.alfnum { 
+  font-weight: bold;
+  font-size: 3em;
+  position: relative;
+  right: 55px;
+  vertical-align: top;
+  line-height: 1.7;
+}
+div.oshwoo-settings label.alfnum.glyph
+{ left: -58px; }
+/* settings page: history icon */
+div.oshwoo-settings label.alfnum.history::before {
+  font-family: 'dashicons';
+  content: '\f110';
+  position: absolute;
+  top: -5px; left: -5px;
+}
+/* settings page: text status color */
+div.oshwoo-settings label.alfnum.text
+{ color: #fff; filter: invert(100%); -webkit-filter: invert(100%); }
+/* order-history-product page: thumbnail frame */
+div.oshwoo-product .product-thumbnail
+{ border: 1px dashed #000; }
+/* quick-fix for double close-X in jquery dialog-ui */
+.ui-dialog-titlebar-close:before {
+    content: '' !important;
+}
+/** metaboxes **/
+/* donation */
+div[id*=oshwoo_donate]
+{ background: #fffff0; }
+/* actions */
+div[id*=oshwoo_actions] div.inside
+{ text-align: center; }
+
+/* admin pages: WC tooltip mod */
+div.oshwoo-product span.woocommerce-help-tip,
+div.oshwoo-customer span.woocommerce-help-tip,
+div.oshwoo-notes span.woocommerce-help-tip
+{ float: right;  top: 3px; }
+
+/* customer notes bubble */
+div.oshwoo-notes ul.order_notes li.order-note .note_content {
+    background: #EAFFFF;
+}
+div.oshwoo-notes ul.order_notes li.order-note .note_content::after {
+    border-color: #EAFFFF transparent;
+}
+
+
+
+
+

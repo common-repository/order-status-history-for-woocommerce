@@ -1,0 +1,582 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Order Status History for WooCommerce\n"
+"POT-Creation-Date: 2022-02-24 06:59+0200\n"
+"PO-Revision-Date: 2022-02-24 06:59+0200\n"
+"Last-Translator: \n"
+"Language-Team: alx359\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: order-status-history-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/order-history-csv.php:15
+#: includes/admin/order-history-customer.php:15
+#: includes/admin/order-history-notes.php:15
+#: includes/admin/order-history-product.php:15
+msgid "No Orders found"
+msgstr "No Orders found"
+
+#: includes/admin/order-history-csv.php:26
+msgid "Invalid type"
+msgstr "Invalid type"
+
+#: includes/admin/order-history-customer.php:39
+msgid "Customer Orders History"
+msgstr "Customer Orders History"
+
+#: includes/admin/order-history-customer.php:65
+#: includes/admin/order-history-notes.php:94 includes/class_osh.php:606
+msgid "Orders"
+msgstr "Orders"
+
+#: includes/admin/order-history-customer.php:71
+msgid "Guest Order"
+msgstr "Guest Order"
+
+#: includes/admin/order-history-customer.php:72
+msgid "G"
+msgstr "G"
+
+#: includes/admin/order-history-customer.php:73
+#: includes/admin/order-history-notes.php:101
+#: includes/admin/order-history-product.php:101
+msgid "Order#"
+msgstr "Order#"
+
+#: includes/admin/order-history-customer.php:74
+#: includes/admin/order-history-notes.php:67
+#: includes/admin/order-history-product.php:67
+msgid "Customer"
+msgstr "Customer"
+
+#: includes/admin/order-history-customer.php:75
+msgid "Date"
+msgstr "Date"
+
+#: includes/admin/order-history-customer.php:76
+msgid "Payment Method"
+msgstr "Payment Method"
+
+#: includes/admin/order-history-customer.php:77
+msgid "Billing Address"
+msgstr "Billing Address"
+
+#: includes/admin/order-history-customer.php:78
+msgid "Phone"
+msgstr "Phone"
+
+#: includes/admin/order-history-customer.php:79
+#: includes/admin/order-history-notes.php:103
+msgid "Shipping Costs"
+msgstr "Shipping Costs"
+
+#: includes/admin/order-history-customer.php:80
+#: includes/admin/order-history-customer.php:235
+#: includes/admin/order-history-notes.php:104
+#: includes/admin/order-history-notes.php:233
+#: includes/admin/order-history-product.php:261
+msgid "Total"
+msgstr "Total"
+
+#: includes/admin/order-history-customer.php:185
+#: includes/admin/order-history-notes.php:202 includes/admin/settings.php:239
+msgid "Highlights"
+msgstr "Highlights"
+
+#: includes/admin/order-history-customer.php:189
+msgid ""
+"Guest Orders are also displayed. For example, a repeating Guest, or a "
+"registered Customer that has not signed-in at the time of purchase."
+msgstr ""
+"Guest Orders are also displayed. For example, a repeating Guest, or a "
+"registered Customer that has not signed-in at the time of purchase."
+
+#: includes/admin/order-history-customer.php:197
+msgid ""
+"Orders placed in varied currencies are simply added up here without "
+"performing any conversion. Therefore, a generic currency symbol next to the "
+"given amount is shown instead."
+msgstr ""
+"Orders placed in varied currencies are simply added up here without "
+"performing any conversion. Therefore, a generic currency symbol next to the "
+"given amount is shown instead."
+
+#: includes/admin/order-history-customer.php:207
+#: includes/admin/order-history-notes.php:215
+#: includes/admin/order-history-product.php:234
+msgid "Summary"
+msgstr "Summary"
+
+#: includes/admin/order-history-customer.php:222
+#: includes/admin/order-history-notes.php:222
+#: includes/admin/order-history-product.php:241
+msgid "Number of orders"
+msgstr "Number of orders"
+
+#. translators: %s: status text
+#: includes/admin/order-history-customer.php:240
+#: includes/admin/order-history-notes.php:238
+#, php-format
+msgid "Total in %s orders, plus shipping"
+msgstr "Total in %s orders, plus shipping"
+
+#: includes/admin/order-history-customer.php:257
+msgid "Customer Address"
+msgstr "Customer Address"
+
+#: includes/admin/order-history-customer.php:268
+#: includes/admin/order-history-notes.php:253
+#: includes/admin/order-history-product.php:281 includes/admin/settings.php:264
+msgid "Actions"
+msgstr "Actions"
+
+#: includes/admin/order-history-customer.php:269
+msgid "Download Order History"
+msgstr "Download Order History"
+
+#: includes/admin/order-history-notes.php:36
+#: includes/admin/order-history-product.php:36
+msgid "Nameless"
+msgstr "Nameless"
+
+#: includes/admin/order-history-notes.php:50
+msgid "Customer Notes History"
+msgstr "Customer Notes History"
+
+#: includes/admin/order-history-notes.php:66
+#: includes/admin/order-history-product.php:66
+msgid "Registered"
+msgstr "Registered"
+
+#: includes/admin/order-history-notes.php:73
+#: includes/admin/order-history-product.php:73
+msgid "Guest Customer"
+msgstr "Guest Customer"
+
+#: includes/admin/order-history-notes.php:102 includes/class_osh.php:608
+msgid "Notes"
+msgstr "Notes"
+
+#: includes/admin/order-history-notes.php:205
+msgid ""
+"Private notes aren't always relevant, because WooCommerce doesn't currently "
+"differentiate between system notes generated from changes in order status, "
+"from those notes manually added by the operator."
+msgstr ""
+"Private notes aren't always relevant, because WooCommerce doesn't currently "
+"differentiate between system notes generated from changes in order status, "
+"from those notes manually added by the operator."
+
+#: includes/admin/order-history-notes.php:254
+msgid "Download Notes History"
+msgstr "Download Notes History"
+
+#: includes/admin/order-history-product.php:50
+msgid "Customer Products History"
+msgstr "Customer Products History"
+
+#: includes/admin/order-history-product.php:94
+msgid "Orders & Products"
+msgstr "Orders & Products"
+
+#: includes/admin/order-history-product.php:102
+msgid "SKU"
+msgstr "SKU"
+
+#: includes/admin/order-history-product.php:103
+msgid "Image"
+msgstr "Image"
+
+#: includes/admin/order-history-product.php:104
+msgid "Product Title"
+msgstr "Product Title"
+
+#: includes/admin/order-history-product.php:105
+msgid "Qty"
+msgstr "Qty"
+
+#: includes/admin/order-history-product.php:106
+msgid "Unit Price"
+msgstr "Unit Price"
+
+#: includes/admin/order-history-product.php:107
+msgid "Qty * Price"
+msgstr "Qty * Price"
+
+#: includes/admin/order-history-product.php:250
+msgid "Number of products"
+msgstr "Number of products"
+
+#. translators: %s: status text
+#: includes/admin/order-history-product.php:266
+#, php-format
+msgid "Total in %s orders & products, minus shipping"
+msgstr "Total in %s orders & products, minus shipping"
+
+#: includes/admin/order-history-product.php:282
+msgid "Download Product History"
+msgstr "Download Product History"
+
+#: includes/admin/settings.php:11 includes/class_osh.php:193
+#: includes/class_osh.php:194
+msgid "Status History Settings"
+msgstr "Status History Settings"
+
+#: includes/admin/settings.php:31
+msgid "Choose Color Theme"
+msgstr "Choose Colour Theme"
+
+#: includes/admin/settings.php:39
+msgid "WooCommerce Statuses"
+msgstr "WooCommerce Statuses"
+
+#: includes/admin/settings.php:45
+msgid "Orders Pending"
+msgstr "Orders Pending"
+
+#: includes/admin/settings.php:57
+msgid "Orders Processing"
+msgstr "Orders Processing"
+
+#: includes/admin/settings.php:69
+msgid "Orders On Hold"
+msgstr "Orders On Hold"
+
+#: includes/admin/settings.php:81
+msgid "Orders Completed"
+msgstr "Orders Completed"
+
+#: includes/admin/settings.php:93
+msgid "Orders Refunded"
+msgstr "Orders Refunded"
+
+#: includes/admin/settings.php:105
+msgid "Orders Cancelled"
+msgstr "Orders Cancelled"
+
+#: includes/admin/settings.php:117
+msgid "Orders Failed"
+msgstr "Orders Failed"
+
+#: includes/admin/settings.php:129 includes/class_osh.php:369
+#: includes/class_osh.php:460 includes/class_osh.php:535
+msgid "Orders in other status"
+msgstr "Orders in other status"
+
+#: includes/admin/settings.php:141
+msgid "Also modify WC defaults"
+msgstr "Also modify WC defaults"
+
+#: includes/admin/settings.php:147
+msgid "Match the default status colors of WooCommerce to this plugin"
+msgstr "Match the default status colours of WooCommerce to this plugin"
+
+#: includes/admin/settings.php:152
+msgid "Additional Statuses"
+msgstr "Colours for the various Order statuses"
+
+#: includes/admin/settings.php:158
+msgid "Total Orders"
+msgstr "Total Orders"
+
+#: includes/admin/settings.php:170
+msgid "Guest Indicator"
+msgstr "Guest Indicator"
+
+#: includes/admin/settings.php:183
+msgid "History Reports Button"
+msgstr "History Reports Button"
+
+#: includes/admin/settings.php:193
+msgid "Other settings"
+msgstr "Other settings"
+
+#: includes/admin/settings.php:199
+msgid "Color for all Status Symbols"
+msgstr "Colour for all Status Symbols"
+
+#: includes/admin/settings.php:212
+msgid "Enhanced multi-currency support"
+msgstr "Enhanced multi-currency support"
+
+#: includes/admin/settings.php:218
+msgid "Enable contextual use of the '&curren;' sign in multi-currency shops"
+msgstr "Enable contextual use of the '&curren;' sign in multi-currency shops"
+
+#: includes/admin/settings.php:242
+msgid ""
+"Hit the swatches to customize the colors used by the plugin. Optionally, the "
+"default WC status colors can also be modified."
+msgstr ""
+"Hit the swatches to customise the colours used by the plugin. Optionally, "
+"the default WC status colours can also be modified."
+
+#: includes/admin/settings.php:245
+msgid ""
+"The \"Total Orders\" status counts how many Orders a given Customer "
+"(registered or guest) has placed in your shop. It also recognizes those "
+"Buyers that had signed-up, but have not signed-in at the time of purchase."
+msgstr ""
+"The \"Total Orders\" status counts how many Orders a given Customer "
+"(registered or guest) has placed in your shop. It also recognizes those "
+"Buyers that had signed-up, but have not signed-in at the time of purchase."
+
+#: includes/admin/settings.php:248
+msgid ""
+"\"Orders in other status\" consolidates all custom non-core WC statuses "
+"configured by other plugins."
+msgstr ""
+"\"Orders in other status\" consolidates all custom non-core WC statuses "
+"configured by other plugins."
+
+#: includes/admin/settings.php:250
+msgid ""
+"The \"Guest\" indicator is shown for Orders placed by non-registered (or non "
+"signed-in) Buyers."
+msgstr ""
+"The \"Guest\" indicator is shown for Orders placed by non-registered (or non "
+"signed-in) Buyers."
+
+#: includes/admin/settings.php:252
+msgid ""
+"\"History Reports\" gives access to past Orders and Products purchased. It "
+"usually appears for Orders from Customers shopped more than once, and also "
+"for Buyers from the WP Users list."
+msgstr ""
+"\"History Reports\" gives access to past Orders and Products purchased. It "
+"usually appears for Orders from Customers shopped more than once, and also "
+"for Buyers from the WP Users list."
+
+#: includes/admin/settings.php:265
+msgid "Import"
+msgstr "Import"
+
+#: includes/admin/settings.php:266
+msgid "Export"
+msgstr "Export"
+
+#: includes/class_osh.php:170 includes/class_osh.php:171
+#: includes/class_osh.php:178 includes/class_osh.php:179
+#: includes/class_osh.php:186 includes/class_osh.php:187
+msgid "Customer History"
+msgstr "Customer History"
+
+#: includes/class_osh.php:244
+msgid "Settings"
+msgstr "Settings"
+
+#: includes/class_osh.php:265 includes/class_osh.php:471
+msgid "Orders history"
+msgstr "Orders history"
+
+#: includes/class_osh.php:357 includes/class_osh.php:523
+msgid "Order placed as Guest"
+msgstr "Order placed as Guest"
+
+#: includes/class_osh.php:361 includes/class_osh.php:452
+#: includes/class_osh.php:527
+msgid "Total orders placed"
+msgstr "Total orders placed"
+
+#: includes/class_osh.php:362 includes/class_osh.php:453
+#: includes/class_osh.php:528
+msgid "Orders pending payment"
+msgstr "Orders pending payment"
+
+#: includes/class_osh.php:363 includes/class_osh.php:454
+#: includes/class_osh.php:529
+msgid "Orders processing"
+msgstr "Orders processing"
+
+#: includes/class_osh.php:364 includes/class_osh.php:455
+#: includes/class_osh.php:530
+msgid "Orders on hold"
+msgstr "Orders on hold"
+
+#: includes/class_osh.php:365 includes/class_osh.php:456
+#: includes/class_osh.php:531
+msgid "Orders completed"
+msgstr "Orders completed"
+
+#: includes/class_osh.php:366 includes/class_osh.php:457
+#: includes/class_osh.php:532
+msgid "Orders cancelled"
+msgstr "Orders cancelled"
+
+#: includes/class_osh.php:367 includes/class_osh.php:458
+#: includes/class_osh.php:533
+msgid "Orders refunded"
+msgstr "Orders refunded"
+
+#: includes/class_osh.php:368 includes/class_osh.php:459
+#: includes/class_osh.php:534
+msgid "Orders failed"
+msgstr "Orders failed"
+
+#: includes/class_osh.php:384
+msgid "Orders History"
+msgstr "Orders History"
+
+#: includes/class_osh.php:607
+msgid "Products"
+msgstr "Products"
+
+#: includes/class_osh.php:675
+msgid "Rebuild history cache"
+msgstr "Rebuild history cache"
+
+#: includes/class_osh.php:701
+#| msgid "History cache rebuild done"
+msgid "History cache rebuilt done"
+msgstr "History cache rebuilt done"
+
+#: includes/parts/donation_box.php:6
+msgid "Support"
+msgstr "Support"
+
+#. translators: 1: plugin name 2: paypal donation link
+#: includes/parts/donation_box.php:9
+#, php-format
+msgid ""
+"If you like the %1s plugin, a donation for support and further development "
+"is much appreciated. Help us over this link: %2s"
+msgstr ""
+"If you like the %1s plugin, a donation for support and further development "
+"is much appreciated. Help us over this link: %2s"
+
+#: includes/php_2js.php:51
+msgid "Current"
+msgstr "Current"
+
+#: includes/php_2js.php:52
+msgid "Default"
+msgstr "Default"
+
+#: includes/php_2js.php:53
+msgid "CSV Importer"
+msgstr "CSV Importer"
+
+#: includes/php_2js.php:54
+msgid ""
+"File parsed and values imported into the current theme. Save changes to "
+"finish."
+msgstr ""
+"File parsed and values imported into the current theme. Save changes to "
+"finish."
+
+#: includes/php_2js.php:55
+msgid "There was an error while parsing the CSV:"
+msgstr "There was an error while parsing the CSV:"
+
+#: includes/php_2js.php:56
+msgid "Incorrect format"
+msgstr "Incorrect format"
+
+#: includes/php_2js.php:57
+msgid ""
+"This page isn't operational, as your browser isn't compatible with the Color "
+"Picker."
+msgstr ""
+"This page isn't operational, as your browser isn't compatible with the "
+"Colour Picker."
+
+#: includes/php_ext.php:99
+msgid "Generic Currency"
+msgstr "Generic Currency"
+
+#. translators: %s: plugin name
+#: order-status-history-for-woocommerce.php:34
+#, php-format
+msgid ""
+"<b>%s</b> requires of <b>WooCommerce</b> installed and active in order to "
+"operate."
+msgstr ""
+"<b>%s</b> requires of <b>WooCommerce</b> installed and active in order to "
+"operate."
+
+#. Plugin Name of the plugin/theme
+msgid "Order Status History for WooCommerce"
+msgstr "Order Status History for WooCommerce"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/order-status-history-for-woocommerce"
+msgstr "https://wordpress.org/plugins/order-status-history-for-woocommerce"
+
+#. Description of the plugin/theme
+msgid "WooCommerce plugin for Order Status History and Reports"
+msgstr "WooCommerce plugin for Order Status History and Reports"
+
+#. Author of the plugin/theme
+msgid "alx359"
+msgstr "alx359"
+
+#~ msgid "Notes to Customer History"
+#~ msgstr "Notes to Customer History"
+
+#~ msgid "Note"
+#~ msgstr "Note"
+
+#~| msgid "Total orders placed"
+#~ msgid "orders failed"
+#~ msgstr "orders failed"
+
+#~ msgid "Pending Order(s)"
+#~ msgstr "Pending Order(s)"
+
+#~ msgid "Processing Order(s)"
+#~ msgstr "Processing Order(s)"
+
+#~ msgid "Completed Order(s)"
+#~ msgstr "Completed Order(s)"
+
+#~ msgid "Refunded Order(s)"
+#~ msgstr "Refunded Order(s)"
+
+#~ msgid "Cancelled Order(s)"
+#~ msgstr "Cancelled Order(s)"
+
+#~ msgid "Failed Order(s)"
+#~ msgstr "Failed Order(s)"
+
+#~ msgid "Cancelled order(s)"
+#~ msgstr "Cancelled order(s)"
+
+#~ msgid "Failed order(s)"
+#~ msgstr "Failed order(s)"
+
+#~ msgid ""
+#~ "Thank you for choosing the %s plugin. This is a first-time review of the "
+#~ "settings upon activation."
+#~ msgstr ""
+#~ "Thank you for choosing the %s plugin. This is a first-time review of the "
+#~ "settings upon activation."
+
+#, fuzzy
+#~ msgid "oshwoo: Order Status not defined"
+#~ msgstr "oshwoo: Order Status not defined"
+
+#~ msgid ""
+#~ "The %s main class already exists. The duplicate conflict needs to be "
+#~ "resolved first for this plugin to operate."
+#~ msgstr ""
+#~ "The %s main class already exists. The duplicate conflict needs to be "
+#~ "resolved first for this plugin to operate."
+
+#, fuzzy
+#~ msgid "Order Status Colors"
+#~ msgstr "Order Status Colours"
+
+#~ msgid "Choose the foreground (text) color for all statuses"
+#~ msgstr "Choose the foreground (text) colour for all statuses"
